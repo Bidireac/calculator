@@ -1,0 +1,28 @@
+.CalculateResult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+.CalculateResult-history {
+    height: 30%;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    font-size: 25px;
+    overflow-x: hidden;
+}
+.CalculateResult-result {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}

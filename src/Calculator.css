@@ -1,0 +1,35 @@
+.Calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 14px 10px -5px #000000;
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.CalculateResult {
+    width: 100%;
+    height: 200px;
+    background-color: #E29587;
+}
+
+.NumberBtn,
+.OperationBtn {
+    width: 140px;
+    height: 80px;
+    border: none;
+    font-size: 25px;
+}
+.NumberBtn {
+    font-weight: bold;
+}
+.NumberBtn:hover,
+.OperationBtn:hover {
+    background-color: #E29587;
+}
+
+.Calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
