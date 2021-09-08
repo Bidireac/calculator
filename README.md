@@ -27,4 +27,4 @@ Project is:  _finished
 
 ## Live Demo
 
-https://blissful-turing-aa38a2.netlify.app/
+https://razvan-calculator.herokuapp.com/
